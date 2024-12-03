@@ -1,0 +1,141 @@
+nav {
+   
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: 1fr 2fr;
+    height: 50px;
+    width: 100%;
+  }
+  
+  ul { 
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+    justify-content: flex-end;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  .right {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+
+  }
+  
+  a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  html{
+    scroll-behavior:smooth;
+}
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+header{
+    background: fixed;
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    z-index: 1;
+    background-color: black;
+    justify-content:center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    column-gap: 5vh;
+}
+
+a{
+    font-size: 1.4em; 
+    text-decoration: none;
+    color : white;
+}
+#z1{
+    display: flex;
+    height: 1080px;
+    background: url("Images/lion-wild-africa-african.jpg")
+    center no-repeat fixed;
+    background-size: cover;
+    align-items: center;
+}
+#z1 #sc1{
+  background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: large;
+    width: 365px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 165px;
+    padding: 30px;
+    position: relative;
+}
+#z2{
+    display: flex;
+    height: 1080px;
+    background: url("Images/capybara1.jpg") center no-repeat fixed;
+    background-size: cover;
+    align-items: center;
+    justify-content: flex-end;
+}
+#z2 #sc2{
+  background-color: rgba(0, 0, 0, 0.4);
+    color: white ;
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 165px;
+    padding: 30px;
+}
+#z3{
+    display: flex;
+    height: 1080px;
+    background: url("Images/amogus.jpg")
+    center no-repeat fixed;
+    background-size: cover;
+    align-items: center;
+
+}
+#z3 #sc3{
+  background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 165px;
+    padding: 30px;
+
+}
+#z4{
+    display: flex;
+    height: 1080px;
+    background: url("Images/smile.jpg") center no-repeat fixed;
+    background-size: cover;
+    align-items: center;
+    justify-content: flex-end;
+}
+#z4 #sc4{
+  background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 165px;
+    padding: 30px;
+}
